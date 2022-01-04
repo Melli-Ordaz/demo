@@ -16200,9 +16200,9 @@ div#small-dialog iframe {
   background: var(--bg-color);
 }
 
-.w3l-homeblog .top-pic1,.w3l-homeblog .top-pic2,.w3l-homeblog .top-pic3,.w3l-homeblog .top-pic4,.w3l-homeblog .top-pic5,.w3l-homeblog .top-pic6 {
-  background: url(../images/ab.jpg) no-repeat 0px 0px;
-  background-size: cover;
+.w3l-homeblog .top-pic1,.w3l-homeblog .top-pic2,.w3l-homeblog .top-pic3,.w3l-homeblog .top-pic4,.w3l-homeblog .top-pic5,.w3l-homeblog .top-pic6,.w3l-homeblog .top-pic7 {
+  background: url(../images/chouqu1.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
   padding: 20px;
   border-radius: var(--border-radius-full);
   height: 450px;
@@ -16212,24 +16212,29 @@ div#small-dialog iframe {
   z-index: 1;
 }
 .w3l-homeblog .top-pic2 {
-  background: url(../images/ab1.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  background: url(../images/chouqu2.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
 }
 .w3l-homeblog .top-pic3 {
-  background: url(../images/ab2.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  background: url(../images/chouqu3.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
 }
 .w3l-homeblog .top-pic4 {
-  background: url(../images/ab3.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  background: url(../images/chouqu4.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
 }
 .w3l-homeblog .top-pic5 {
-  background: url(../images/ab4.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  background: url(../images/chouqu5.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
 }
 .w3l-homeblog .top-pic6 {
+  background: url(../images/chouqu6.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+
+.w3l-homeblog .top-pic7 {
   background: url(../images/ab5.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .w3l-homeblog .top-pic1,
@@ -16759,7 +16764,7 @@ ul.page-pagination li a.next:hover {
   background: var(--bg-color);
   border-radius: 50%;
   margin-bottom: 10px;
-  display: none;
+/*  display: none; */
 }
 
 .w3l-clients-1 .testimonial img {
