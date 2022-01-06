@@ -18,6 +18,7 @@
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="../assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/homepage.css" rel="stylesheet" type="text/css">
 
     <link href="../assets/plugins/alertify/css/alertify.css" rel="stylesheet" type="text/css">
 
@@ -41,9 +42,8 @@
 
 
 <!-- Loader -->
-<!-- <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
- -->
- 
+<!-- <div id="preloader"><div id="status"><div class="spinner"></div></div></div> -->
+
 <!-- Begin page -->
 <div id="wrapper">
 
@@ -76,13 +76,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">主页 <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="re_doc_show.html">演示</a>
+                            <a class="nav-link" href="re_doc_show.html">Demo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/zjunlp/deepke">下载</a>
+                            <a class="nav-link" href="https://github.com/zjunlp/deepke">Download</a>
                         </li>
                       
 <!--                        <li class="nav-item">
@@ -90,19 +90,19 @@
                         </li> -->
 						
 						<li class="nav-item">
-						    <a class="nav-link" href="https://zjunlp.github.io/DeepKE">文档</a>
+						    <a class="nav-link" href="https://zjunlp.github.io/DeepKE">Document</a>
 						</li>
 						
 						<li class="nav-item">
 						    <a class="nav-link" href="http://openkg.cn/">OpenKG</a>
 						</li>
 
-						<li class=" nav-item">
-							<a class="nav-link" style="padding-left: 100px;" href="../EN/index.html"> English</a>
+						<li class="nav-item">
+							<a class="nav-link" style="padding-left: 100px;" > English</a>
 						</li>
 
-						<li class=" nav-item">
-							<a class="nav-link" style="padding-right: -10px;" >中文</a>	
+						<li class="nav-item">
+							<a class="nav-link" style="padding-left: -10px;" href="../CN/index.html">中文</a>	
 						</li>
                     </ul>
 					
@@ -137,14 +137,14 @@
 			    <div class="container py-lg-5 py-md-4 mt-lg-0 mt-5">
 			        <div class="row align-items-center py-lg-5 py-4 mt-4">
 			            <div class="col-lg-6 col-sm-12 mt-lg-5">
-			                <h3 class="mb-4 title">Deep Learning based <br> <span class="type-js"><span class="text-js"> Knowledge Extraction Toolkit</span></span><br>
-			           </h3>
+			                <h3 class="mb-4 title">Deep connection of <br> <span class="type-js"><span class="text-js"> World Knowledge</span></span><br>
+			                     Extraction Tool.</h3>
 			                <div class="separatorhny"></div>
-			                <p>一个支持低资源、长篇章的开源知识抽取工具
+			                <p>Deep Learning Based Knowledge Extraction Toolkit for Knowledge Base Population</p>
 			
 			                <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
-			                    <a href="https://zjunlp.github.io/DeepKE" class="btn btn-style btn-white mr-lg-4 mr-sm-3"> 使用文档</a>
-			                    <a class="btn btn-primary btn-style" href="contract_us.html">联系我们</a>
+			                    <!-- <a href="about.html" class="btn btn-style btn-white mr-lg-4 mr-sm-3"> Read More</a> -->
+			                    <a class="btn btn-primary btn-style" href="contract_us.html">Contact Us</a>
 			
 			
 			                </div>
@@ -157,10 +157,12 @@
 			                            <span class="fa fa-play"></span>
 			                        </span>
 			                    </a>
+			
 			                    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
 			                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-			                        <iframe src="https://player.vimeo.com/video/326582338" frameborder="0"
-			                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+									<iframe src="//player.bilibili.com/player.html?aid=888541828&bvid=BV1YK4y137BN&cid=352753437&page=1" 
+									  frameborder="no" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 			                    </div>
 			                    <!--//video-->
 			                </div>
@@ -180,12 +182,13 @@
 			                    <div class="col-lg-5 content-1-left forms-25-info">
 			                        <div class="header-title">
 			                            <h3 class="hny-title mb-4">
-			                                特点
+			                                Features
 			                            </h3>
 			                        </div>
 			                    </div>
 			                    <div class="col-lg-7 content-1-right pl-lg-5 mt-lg-0 mt-4">
-			                        <p class="">DeepKE 是一个支持低资源、长篇章的知识抽取工具，学术界和工业界的用户可以定制输入的数据集和模型实现命名实体识别、关系抽取和属性抽取功能。
+			                        <p class="">DeepKE is a knowledge extraction toolkit supporting low-resource and document-level scenarios. 
+									It provides three functions based PyTorch, including Named Entity Recognition, Relation Extraciton and Attribute Extraction.
 			                        </p>
 			                    </div>
 			                </div>
@@ -202,44 +205,47 @@
 				                    <div class="col-md-6 grids-feature">
 				                        <div class="area-box">
 				                            <span class="fa fa-users"></span>
-				                            <h4><a href="#feature" class="title-head">低资源</a></h4>
-				                            <p class="mt-3">DeepKE 支持大量低资源场景的抽取任务，只需要极少（16或32个）的标注样本即可实现抽取。</p>
+				                            <h4><a href="#feature" class="title-head">Multiple extraction tasks</a></h4>
+				                            <p class="mt-3">DeepKE contains three modules for named entity recognition, relation extraction and attribute extraction, the three tasks respectively.</p>
 				                        </div>
 				                    </div>
 				                    <div class="col-md-6 grids-feature mt-sm-0 mt-4">
 				                        <div class="area-box">
 				                            <span class="fa fa-tasks"></span>
-				                            <h4><a href="#feature" class="title-head">文档级</a></h4>
-				                            <p class="mt-3">真实应用中关系通常分布在文档的不同的句子中，DeepKE支持文档级的关系抽取。 </p>
+				                            <h4><a href="#feature" class="title-head">Multiple scene settings</a></h4>
+				                            <p class="mt-3">Each module has its own submodules. For example, there are standard, document-level and few-shot submodules in the attribute extraction modular.</p>
 				                        </div>
 				                    </div>
 				                    <div class="col-md-6 grids-feature mt-4">
 				                        <div class="area-box">
 				
 				                            <span class="fa fa-pencil-square-o"></span>
-				                            <h4><a href="#feature" class="title-head">多任务</a></h4>
-				                            <p class="mt-3">DeepKE 支持各种不同的抽取任务包括命名实体识别、关系抽取、属性抽取等。</p>
+				                            <h4><a href="#feature" class="title-head">Multiple usage modes</a></h4>
+				                            <p class="mt-3">You can use directly by pip, and you can also modify the code to use by 'python setup.py instll'..</p>
 				                        </div>
 				                    </div>
 				                    <div class="col-md-6 grids-feature mt-4">
 				                        <div class="area-box">
 				
 				                            <span class="fa fa-video-camera "></span>
-				                            <h4><a href="#feature" class="title-head">在线演示</a></h4>
-				              <p class="mt-3">DeepKE提供一个在线演示界面，通过用户交互的方式实现知识抽取。 <a href="http://deepke.zjukg.cn/CN/re_doc_show.html" target="_blank">快来试一试!!</a></p>
+				                            <h4><a href="#feature" class="title-head">Online demo</a></h4>
+				                            <p class="mt-3">Try to use the model !!!  <br> Click here directly !!</p>
 				                        </div>
 				                    </div>
 				                </div>
 				                <!-- //feature-left-->
 				            </div>
 				            <div class="col-lg-5 features-rightthny mt-lg-0 mt-5 pl-lg-5">
-				                <h3 class="hny-title mb-4">开源开放的知识图谱抽取工具</h3>
+				                <h3 class="hny-title mb-4">The commonality of these tasks inspires us whether there is a universal framework.</h3>
 				                <div class="separatorhny"></div>
-				                <p>
-
-				                DeepKE是一个开源和可扩展的知识图谱抽取工具，支持常规全监督、低资源少样本和文档级场景，覆盖各种信息抽取任务包括命名实体识别、关系抽取和属性抽取。通过一个统一的框架，DeepKE 允许开发人员和研究人员自定义数据集和模型，并根据他们的需求从非结构化文本中抽取信息。DeepKE针对不同的功能和场景提供了各种功能模块和模型实现，以保持足够的模块化和可扩展性。此外，DeepKE还为初学者提供了全面的文档和 Google Colab 教程。用户可以通过“pip install deepke”安装 DeepKE。我们将长期提供维护以满足新的请求，支持新任务，和修复Bug。
+				                <p>Motivated by this, we formulate those tasks regarding both token and sentence as universal extraction and design a simple unified model. 
+								Our prototype model studies the possibility of bridging the gap between tasks with single architecture and providing future insight for unified natural language understanding. 
+								Furthermore, as there is a lack of practical and stable toolkit to support the implementation, deployment and evaluation of those tasks, 
+								we develop a toolkit which is a compliment for existing toolsets such as Spacy2 for named entity recognition, 
+								TagMe for entity linking , OpenKE for knowledge embedding,
+								 Stanford OpenIE for open information extraction, and OpenNER for relation extraction.
 								</p>
-				                <!-- <a class="btn btn-primary btn-style mt-md-5 mt-4" href="re_doc_show.html">Read More</a> -->
+				                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="re_doc_show.html">Read More</a>
 				            </div>
 				
 				        </div>
@@ -262,20 +268,20 @@
 						    <img src="../assets/images/demo.gif" alt="" class="img-fluid radius-image">
 						  </div> 
 				        <div class="col-lg-6 about-right-faq align-self mt-lg-0 mt-sm-5 mt-4 pl-lg-5">
-				          <h3 class="hny-title mb-4">简洁使用</h3>
+				          <h3 class="hny-title mb-4">Display Prediction Process</h3>
 				          <div class="separatorhny"></div>
-				          <p class="">DeepKE 提供各种功能模块，并通过一致的框架组织所有组件。
+				          <p class="">DeepKE contains three modules for named entity recognition, relation extraction and attribute extraction, the three tasks respectively.
 						  
 						  
 						  </p>
 				          <div class="two-grids mt-md-0 mt-md-5 mt-4">
 				            <div class="grids_info">
-				              <h4>模块化和可扩展</h4>
-				              <p class=""> 训练验证代码和模型架构代码分离，可自定义新模型新数据</p>
+				              <h4>Each module has its own submodules</h4>
+				              <p class=""> For example, there are standard, document-level and few-shot submodules in the attribute extraction modular.</p>
 				            </div>
 				            <div class="grids_info">
-				              <h4>支持自动调参</h4>
-				              <p class="">支持通用一行代码自动调参，方便模型调优</p>
+				              <h4>Each submodule compose of three parts</h4>
+				              <p class="">A collection of tools, which can function as tokenizer, dataloader, preprocessor and the like, a encoder and a part for training and prediction.</p>
 				            </div>
 				          </div>
 				        </div>
@@ -301,14 +307,14 @@
 				                        <p class="count-text ">Users</p>
 				                    </div>
 				                </div> -->
-				                <div class="col-md-6 col-6" align="center">
+				                <div class="col-md-6 col-6"  align="center">
 				                    <div class="counter">
 				                        <span class="fa fa-star"></span>
 				                        <div class="timer count-title count-number mt-3" data-to="987" data-speed="50"></div>
 				                        <p class="count-text">Stars</p>
 				                    </div>
 				                </div>
-				                <div class="col-md-6 col-6" align="center">
+				                <div class="col-md-6 col-6"  align="center">
 				                    <div class="counter">
 				                        <span class="fa fa-clone"></span>
 				                        <div class="timer count-title count-number mt-3" data-to="226" data-speed="20"></div>
@@ -325,13 +331,14 @@
 				<!-- //stats -->
 				<div class="w3l-homeblog py-5" id="homeblog">
 				    <div class="container py-lg-5 py-md-4">
-				        <h6 class="sub-titlehny text-center">应用场景</h6>
-				        <h3 class="hny-title mb-md-5 mb-4 pb-md-0 pb-2 text-center">工具设计逻辑</h3>
+				        <h6 class="sub-titlehny text-center">Application Scenarios</h6>
+				        <h3 class="hny-title mb-md-5 mb-4 pb-md-0 pb-2 text-center">Toolkit Design and Implementation</h3>
 				        <div class="row top-pics">
 				            <div class="col-lg-4 col-md-6">
 				                <div class="top-pic1">
 				                    <div class="card-body blog-details">
-				                        <a href="re_st.html" class="blog-desc">常规关系抽取
+				                        <!-- <p>News</p> -->
+				                        <a href="re_st.html" class="blog-desc">Standard RE
 				                        </a>
 				                    </div>
 				                </div>
@@ -340,7 +347,7 @@
 				                <div class="top-pic2">
 				                    <div class="card-body blog-details">
 				                        <!-- <p>News</p> -->
-				                        <a href="re_few.html" class="blog-desc">少样本关系抽取
+				                        <a href="re_few.html" class="blog-desc">Few-shot RE
 				                        </a>
 				                    </div>
 				                </div>
@@ -349,7 +356,7 @@
 				                <div class="top-pic3">
 				                    <div class="card-body blog-details">
 				                        <!-- <p>News</p> -->
-				                        <a href="re_doc_show.html" class="blog-desc">文档级关系抽取
+				                        <a href="re_doc_show.html" class="blog-desc">Document RE
 				                        </a>
 				                    </div>
 				                </div>
@@ -364,7 +371,7 @@
 				                <div class="top-pic4">
 				                    <div class="card-body blog-details">
 				                        <!-- <p>News</p> -->
-				                        <a href="ner_st.html" class="blog-desc">常规实体抽取
+				                        <a href="ner_st.html" class="blog-desc">Standard NER
 				                        </a>
 				                    </div>
 				                </div>
@@ -373,7 +380,7 @@
 				                <div class="top-pic5">
 				                    <div class="card-body blog-details">
 				                        <!-- <p>News</p> -->
-				                        <a href="ner_few.html" class="blog-desc">少样本实体抽取
+				                        <a href="ner_few.html" class="blog-desc">Few-shot NER
 				                        </a>
 				                    </div>
 				                </div>
@@ -382,7 +389,7 @@
 				                <div class="top-pic6">
 				                    <div class="card-body blog-details">
 				                        <!-- <p>News</p> -->
-				                        <a href="ae_st.html" class="blog-desc">常规属性抽取
+				                        <a href="ae_st.html" class="blog-desc">Strandard AE
 				                        </a>
 				                    </div>
 				                </div>
@@ -395,21 +402,219 @@
 				    </div>
 				</div>
 
- 
- 
+		<!-- middle -->
+		    <div class="middle py-5">
+		        <div class="container py-md-4">
+		            <div class="welcome-left text-left py-lg-4">
+		                <h3 class="hny-title mb-4">Knowledge extraction from the Web</h3>
+		                <div class="separatorhny"></div>
+		                <p class="pr-lg-5 mr-lg-5">
+						DeepKE implements crawler to obtain raw web pages and extract fact knowledge. 
+						The recent knowledge graph is far from complete, while vast numbers of facts exist in web pages. 
+						DeepKE is suitable to serve as a schemabased never ended learner from the Web.</p>
+		                <a href="https://zjunlp.github.io/DeepKE" class="btn btn-style btn-white mt-sm-5 mt-4 mr-2">Read More</a>
+		                <a href="contract_us.html" class="btn btn-style btn-primary mt-sm-5 mt-4">Contact Us</a>
+		            </div>
+		        </div>
+		    </div>
+		    <!-- //middle -->
+		<!-- testimonials -->
+		<section class="w3l-clients-1" id="testimonials">
+		    <!-- /grids -->
+		    <div class="cusrtomer-layout py-5">
+		        <div class="container py-lg-5 py-md-4">
+		            <div class="heading align-self text-center">
+		                <h6 class="sub-titlehny">Testimonials</h6>
+		                <h3 class="hny-title mb-md-5 mb-4">What Developers Say</h3>
+		            </div>
+		            <!-- /grids -->
+		            <div class="testimonial-row">
+		                <div id="owl-demo1" class="owl-two owl-carousel owl-theme mb-md-3 mb-sm-5 mb-4">
+		                    <div class="item">
+		                        <div class="testimonial-content">
+		                            <div class="testimonial">
+		                                <div class="test-img">
+		                                    <img src="../assets/images/team1.jpg" class="img-fluid" alt="client-img">
+		                                </div>
+		                                <blockquote>
+		                                    <q>
+												Natural language processing covers a wide variety of tasks with token-level or sentencelevel understandings.
+												We provide a simple insight that most tasks can be represented in a single universal extraction format.
+												To be specific, we introduce a prototype model and provide an open-source and extensible toolkit called
+												DeepKE for various extraction tasks.
+											
+											
+											</q>
+		                                </blockquote>
+		                                <div class="testi-des">
+		                                    <div class="peopl align-self">
+		                                        <h3>Ningyu Zhang</h3>
+		                                        <p class="indentity">AZFT Researcher </p>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="item">
+		                        <div class="testimonial-content">
+		                            <div class="testimonial">
+		                                <div class="test-img"><img src="../assets/images/team2.jpg" class="img-fluid"
+		                                        alt="client-img">
+		                                </div>
+		                                <blockquote>
+		                                    <q>
+												The essence of a knowledge graph is to use the graph's structure to describe the 
+												relationship between things and precipitate domain knowledge. It is an important
+												 cornerstone to realize cognitive intelligence. It has been widely used in many fields, 
+												 such as search engines, intelligent question and answer, language semantic understanding,
+												  extensive data decision analysis, etc.
+												</q>
+		                                </blockquote>
+		                                <div class="testi-des">
+		                                    <div class="peopl align-self">
+		                                        <h3>Huajun Chen</h3>
+		                                        <p class="indentity"> Zhejiang University Professor </p>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="item">
+		                        <div class="testimonial-content">
+		                            <div class="testimonial">
+		                                <div class="test-img"><img src="../assets/images/team3.jpg" class="img-fluid"
+		                                        alt="client-img">
+		                                </div>
+		                                <blockquote>
+		                                    <q>DeepKE allows developers to train custom models to extract information 
+												from the text and supports quick model validation for researchers.
+												I think this work can bring convenience and inspiration to industry and academia.
+												
+												</q>
+		                                </blockquote>
+		                                <div class="testi-des">
+		                                    <div class="peopl align-self">
+		                                        <h3>Fei Huang </h3>
+		                                        <p class="indentity">Alibaba Damo Academy Senior Algorithm Expert </p>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="item">
+		                        <div class="testimonial-content">
+		                            <div class="testimonial">
+		                                <div class="test-img"><img src="../assets/images/team4.jpg" class="img-fluid"
+		                                        alt="client-img">
+		                                </div>
+		                                <blockquote>
+		                                    <q>
+<!-- 												We provide a prototype model implementation of universal extraction and introduce an open and extensible toolkit, namely, DeepKE. 
+											Additionally, we conduct extensive experiments which demonstrate that the models implemented by DeepKE are efficient, effective,
+											 and can achieve comparable performance compared to the state-of-the-art results. -->
+											 In the future, we plan to utilize the multitask learning or meta-learning algorithms to enhance extraction performance. 
+											We will provide long-term maintenance to fix bugs and meet new requests.
+											</q>
+		                                </blockquote>
+		                                <div class="testi-des">
+		                                    <div class="peopl align-self">
+		                                        <h3>Hongbin Ye</h3>
+		                                        <p class="indentity">Zhejiang University Phd Student </p>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <!-- /grids -->
+		    </div>
+		    <!-- //grids -->
+		</section>
+		<!-- //testimonials -->
+
 		
 		
- 
-            
-		<!-- copyright -->
+		<!-- footer -->
+		<section class="w3l-footer-29-main">
+		    <div class="footer-29 py-5">
+		        <div class="container py-lg-4">
+		            <div class="row footer-top-29">
+		                <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+		                    <div class="footer-logo mb-3">
+		                        <a class="navbar-brand" href="#Advisory">Advisory</a>
+		                    </div>
+		                    <p>If you have any new suggestions for our toolkit, please contact us, we will try to meet your
+							requirements, thank you for your support and understanding.
+								</p>
+		                    <div class="main-social-footer-29 mt-4">
+		                        <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+		                        <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+		                        <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+		                        <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+		                    </div>
+		                </div>
+		                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+		
+		                    <ul>
+		                        <h6 class="footer-title-29">Usefull Links</h6>
+		                        <li><a href="#About">About Us</a></li>
+		                        <li><a href="#Blog"> Blog posts</a></li>
+		                        <li><a href="#careers"> Careers</a></li>
+		                        <li><a href="#Services">Services</a></li>
+		                        <li><a href="contact.html">Contact us</a></li>
+		                    </ul>
+		                </div>
+		                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+		                    <h6 class="footer-title-29">More Info</h6>
+		                    <ul>
+		                        <li><a href="#profile">Group Profile</a></li>
+		                        <li><a href="#history">History</a></li>
+		                        <li><a href="#award">Awards</a></li>
+		                        <li><a href="#media"> Media</a></li>
+		                        <li><a href="#support"> Support</a></li>
+		                    </ul>
+		
+		                </div>
+		                <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
+		                    <h6 class="footer-title-29">Contact Info </h6>
+		                    <p><strong>Address :</strong> Zhejiang University, No. 38, Yuquan Campus, Zhejiang University, Hangzhou - 310007.</p>
+		                    <p><strong>Email :</strong> <a href="mailto:zhangningyu@zju.edu.cn">zhangningyu@zju.edu.cn</a></p>
+		
+		                    <div class="map-iframe-ft mt-4">
+<!-- 		                        <iframe
+		                            src="uri.amap.com/marker?position=120.122072,30.264244&name=Our Location&src=&coordinate=&callnative=0"
+		                            width="100%" height="400" frameborder="0" style="border: 0px;"
+		                            allowfullscreen=""></iframe> -->
+								<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/s/6DQHFb"></iframe>
+		                    
+							
+							
+							</div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		<!-- //footer -->
             
 		<!-- copyright -->
 		<section class="w3l-copyright">
-		     <center>
-		            <p class="col-lg-8 copy-footer-29">Copyright© 2021 <a href="http://openkg.cn/">OpenKG </a> All Rights Reserved</p>
+		    <div class="container">
+		        <div class="row bottom-copies">
+		            <p class="col-lg-8 copy-footer-29">Copyright© 2019-2021 <a href="http://openkg.cn/">OpenKG </a> All Rights Reserved</p>
 		
+		            <div class="col-lg-4 footer-list-29">
+		                <ul class="d-flex text-lg-right">
+		                    <li><a href="#careers"> Careers</a></li>
+		                    <li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacy">Privacy Policy</a></li>
+		                    <li><a href="#Contact">Contact us</a></li>
+		                </ul>
+		            </div>
 		
-</center>
+		        </div>
+		    </div>
 		
 		    <!-- move top -->
 		    <button onclick="topFunction()" id="movetop" title="Go to top">
@@ -546,6 +751,7 @@
         });
     </script>
 
+
     <!-- magnific popup -->
     <script src="../assets/js/jquery.magnific-popup.min.js"></script>
     <script>
@@ -584,12 +790,6 @@
         });
     </script>
     <!-- //magnific popup -->
-
-
-
-
-
-
 
 
 
