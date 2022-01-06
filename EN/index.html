@@ -144,7 +144,8 @@
 			
 			                <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
 			                    <!-- <a href="about.html" class="btn btn-style btn-white mr-lg-4 mr-sm-3"> Read More</a> -->
-			                    <a class="btn btn-primary btn-style" href="http://zjukg.org/about/">Contact Us</a>
+			                    <a href="https://zjunlp.github.io/DeepKE" class="btn btn-style btn-white mr-lg-4 mr-sm-3"> Read More</a>
+								<a class="btn btn-primary btn-style" href="http://zjukg.org/about/">Contact Us</a>
 			
 			
 			                </div>
@@ -160,8 +161,9 @@
 			
 			                    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
 			                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-			                        <iframe src="https://player.vimeo.com/video/326582338" frameborder="0"
-			                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+									<iframe src="//player.bilibili.com/player.html?aid=888541828&bvid=BV1YK4y137BN&cid=352753437&page=1" 
+									  frameborder="no" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 			                    </div>
 			                    <!--//video-->
 			                </div>
@@ -562,6 +564,45 @@ We present a new open-source and extensible knowledge extraction toolkit, called
             autoType(".type-js", 200);
         });
     </script>
+	
+	<!-- magnific popup -->
+	<script src="../assets/js/jquery.magnific-popup.min.js"></script>
+	<script>
+	    $(document).ready(function () {
+	        $('.popup-with-zoom-anim').magnificPopup({
+	            type: 'inline',
+	
+	            fixedContentPos: false,
+	            fixedBgPos: true,
+	
+	            overflowY: 'auto',
+	
+	            closeBtnInside: true,
+	            preloader: false,
+	
+	            midClick: true,
+	            removalDelay: 300,
+	            mainClass: 'my-mfp-zoom-in'
+	        });
+	
+	        $('.popup-with-move-anim').magnificPopup({
+	            type: 'inline',
+	
+	            fixedContentPos: false,
+	            fixedBgPos: true,
+	
+	            overflowY: 'auto',
+	
+	            closeBtnInside: true,
+	            preloader: false,
+	
+	            midClick: true,
+	            removalDelay: 300,
+	            mainClass: 'my-mfp-slide-bottom'
+	        });
+	    });
+	</script>
+	<!-- //magnific popup -->
 
     <!-- /counter-->
     <script src="../assets/js/counter.js"></script>
